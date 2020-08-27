@@ -32,7 +32,7 @@ int main() {
   const char *bltrst = command.c_str();
   system(bltrst);
   delay(500);
-  std::string macaddress = "30:C0:1B:6B:05:3B";
+  std::string macaddress = "30:C0:1B:6B:05:3B"; //Change this address for your speaker
   command = "bluetoothctl connect " + macaddress;
   const char *bltcom = command.c_str(); //used to convert into a string that system() can use
   system(bltcom);
