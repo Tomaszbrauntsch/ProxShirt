@@ -2,7 +2,7 @@
 #include <iostream>
 #include <wiringPi.h>
 #include <thread>
-#include <cstdio>
+//#include <cstdio>
 #include <stdlib.h> //Used for rand and srand
 
 std::string command;
