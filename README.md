@@ -1,4 +1,4 @@
-# ProxBelt
+# ProxShirt
 "Simple" social distancing device
 ## How does it work?
 The distance sensor waits until the nearest object in front of you is 6 ft or less, then sends a signal to the pi to play a random audio clip through the speaker
